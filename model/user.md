@@ -30,10 +30,14 @@
     type:String,
     default:"这个网站你问我恣辞不恣辞，我当然是恣辞的"
   },
-  telephoneNum:{
+  telephoneNum: {
     type:String
   },
-  order:[{
+  money: {
+    type:Number,
+    default:0
+  },
+  order: [{
     //对用户订单的引用
     type:Schema.Types.ObjectId,
     ref:"order"

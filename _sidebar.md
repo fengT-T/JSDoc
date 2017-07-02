@@ -2,3 +2,5 @@
 - model
   - [摘要](model/summary.md)
   - [用户](model/user.md)
+  - [商品](model/goods.md)
+  - [订单](model/order.md)
